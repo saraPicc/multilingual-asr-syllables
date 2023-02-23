@@ -30,6 +30,7 @@ The dataset is automatically transcribed in phonemes to work on a phonological l
 <br/>
 
 To build the ASR we [fine-tune](https://huggingface.co/blog/fine-tune-wav2vec2-english) the pre-trained model WavLM-large [(Chen et al., 2021)](https://arxiv.org/abs/2110.13900) on multilingual speech data extracted from the [Mozilla Common Voice](https://commonvoice.mozilla.org/it?gclid=Cj0KCQiA2-2eBhClARIsAGLQ2RlkVJtTFkEemoK3FvlpTxtFwuXvAHGOHadvXjzcbrx-R2Jw9eNdES8aAhcPEALw_wcB) dataset. <br/>
+
 The languages considered within this project are Italian, Spanish and French. <br/>
 
 The performance of the model is evaluated with two metrics: the Token Error Rate and the Phoneme Error Rate.
