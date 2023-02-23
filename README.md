@@ -45,6 +45,7 @@ This repo contains:
 * expMLhyb20.py -> script to fine fine-tune the model wavLM-large on our data
 * CustomML_ITESFRPhoCTCTokenizer -> script containing custom tokenizer that acts according to syllabification rules
 * tokenizerMLT_ITESFR_hybPhoSyl246 -> folder with multilingual syllabic vocabulary
+* evaluation.py -> script for the evaluation of the trained model on test dataset and to generate a csv file with a sample of predictions 
 
 
 </font>
