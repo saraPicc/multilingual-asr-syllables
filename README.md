@@ -10,11 +10,11 @@ According to the phonological definition, each syllable consists of at least a n
 
 <br/>
 
-![Sonority scale](SonorityScale1.JPG)
+![Sonority scale](images/SonorityScale1.JPG)
 
 <br/>
 
-![Syllable structure](SyllableStructure1.JPG)
+![Syllable structure](images/SyllableStructure1.JPG)
 
 <br/>
 
