@@ -41,11 +41,27 @@ The performance of the model is evaluated with two metrics: the Token Error Rate
 This repo contains:
 
 
-* multilingual_corpus.ipynb -> script to extract the data from Common Voice, generate phonological transcriptions and build the mutlilingual corpus
-* expMLhyb20.py -> script to fine fine-tune the model wavLM-large on our data
-* CustomML_ITESFRPhoCTCTokenizer -> script containing custom tokenizer that acts according to syllabification rules
-* tokenizerMLT_ITESFR_hybPhoSyl246 -> folder with multilingual syllabic vocabulary
-* evaluation.py -> script for the evaluation of the trained model on the test dataset and generate a csv file with a sample of predictions 
+* multilingual_corpus.ipynb  <br/>
+    -> multilingual corpus preparation (Common Voice data, WebMAUS Basic transcriptions) 
+    <br/>
+
+* transcriptions <br/>
+    -> folder with pkl files with phonetic and phonological transcriptions of Italian, French and Spanish data <br/>
+
+* expMLhyb20.py <br/>
+    -> fine-tuning of the model wavLM-large on multilignual data with a custom tokenizer and syllable-based vocabulary
+    <br/>
+* syllabifier.ipynb <br/>
+    -> syllabification algorithm used to generate the syllabic vocabulary <br/>
+* HybridML_ITESFRPhoCTCTokenizer <br/>
+    -> custom tokenizer that acts according to syllabification rules <br/>
+* tokenizerMLT_ITESFR_hybPhoSyl246 <br/>
+    -> folder with multilingual syllabic vocabulary <br/>
+* evaluation.py <br/>
+    -> evaluation of the trained model on the test dataset. Generates a csv file with a sample of predictions  <br/>
+
+* back2words.py <br/>
+    -> auxiliary script that adjusts the format of the predicted sentences to calculate PER, TER and WER scores  <br/>
 
 
 </font>

@@ -18,7 +18,7 @@ import numpy as np
 import argparse
 from torch import Tensor
 from segments import Profile, Tokenizer
-from HybridML_ITESFRPhoSylCTCTokenizer import HybridML_ITESFRPhoSylCTCTokenizer
+from CustomML_ITESFRPhoSylCTCTokenizer import HybridML_ITESFRPhoSylCTCTokenizer
 import pickle as pkl
 
 
