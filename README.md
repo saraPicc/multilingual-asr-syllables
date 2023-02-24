@@ -41,8 +41,7 @@ The performance of the model is evaluated with two metrics: the Token Error Rate
 This repo contains:
 
 
-* get_transcribe_data.py -> script to extract the corpus from Common Voice and get the phonological transcriptions
-* CSVprocessing.py -> script to process the transcriptions obtained from WebMAUS and add them to the dataset
+* multilingual_corpus.ipynb -> script to extract the data from Common Voice, generate phonological transcriptions and build the mutlilingual corpus
 * expMLhyb20.py -> script to fine fine-tune the model wavLM-large on our data
 * CustomML_ITESFRPhoCTCTokenizer -> script containing custom tokenizer that acts according to syllabification rules
 * tokenizerMLT_ITESFR_hybPhoSyl246 -> folder with multilingual syllabic vocabulary
