@@ -1,1 +1,0 @@
-{"unk_token": "[UNK]", "bos_token": "<s>", "eos_token": "</s>", "pad_token": "[PAD]", "word_delimiter_token": " | ", "phone_delimiter_token": " ", "do_phonemize": false, "phonemizer_lang": "it", "phonemizer_backend": "espeak", "do_wb_format": true, "tokenizer_class": "HybridMLT_ITESFRPhoSylCTCTokenizer"}
