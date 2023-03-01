@@ -49,7 +49,7 @@ This repo contains:
     -> folder with pkl files with phonetic and phonological transcriptions of Italian, French and Spanish data <br/>
 
 * expMLhyb20.py <br/>
-    -> fine-tuning of the model wavLM-large on multilignual data with a custom tokenizer and syllable-based vocabulary
+    -> fine-tuning of the model wavLM-large on multilingual data with a custom tokenizer and syllable-based vocabulary
     <br/>
 * syllabifier.ipynb <br/>
     -> syllabification algorithm used to generate the syllabic vocabulary <br/>
